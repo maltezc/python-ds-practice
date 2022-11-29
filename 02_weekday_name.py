@@ -12,7 +12,7 @@ def weekday_name(day_of_week):
         >>> weekday_name(9)
         >>> weekday_name(0)
     """
-    days_of_week = {
+    days_of_week = { # TODO: DAYS_OF_WEEK and move to global scope
         1:"Sunday",
         2:"Monday",
         3:"Tuesday",
